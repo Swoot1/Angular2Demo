@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Angular 2</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="app/styles/styles.css" rel="stylesheet" type="text/css"/> 
+    <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
+    <script src="node_modules/systemjs/dist/system.js"></script>
+    <script src="node_modules/typescript/lib/typescript.js"></script>
+    <script src="node_modules/rxjs/bundles/Rx.min.js"></script>
+    <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
+    <script>
+        System.config({
+            transpiler: 'typescript', 
+            typescriptOptions: { emitDecoratorMetadata: true }, 
+            packages: {'app': {defaultExtension: 'ts'}}
+        });
+        System.import('app/boot')
+            .then(null, console.error.bind(console));
+    </script>
+    <script src="dist/bundle.js"></script>
+</head>
+    <body>
+        <div class="row container">
+            <div class="col-md-12">
+                <my-app>Loading...</my-app>
+            </div>
+        </div>
+    </body>
+</html>
