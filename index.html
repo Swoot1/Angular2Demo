@@ -11,7 +11,8 @@
     <script src="node_modules/typescript/lib/typescript.js"></script>
     <script src="node_modules/rxjs/bundles/Rx.min.js"></script>
     <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
-    <script>
+    <script src="dist/bundle.js"></script>
+   <script>
         System.config({
             transpiler: 'typescript', 
             typescriptOptions: { emitDecoratorMetadata: true }, 
@@ -20,7 +21,7 @@
         System.import('app/boot')
             .then(null, console.error.bind(console));
     </script>
-    <script src="dist/bundle.js"></script>
+    
 </head>
     <body>
         <div class="row container">
