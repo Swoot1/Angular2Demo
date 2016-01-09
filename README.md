@@ -1,2 +1,2 @@
 # Angular2Demo
-Angular 1 compared to Angular 2
+Todo app in Angular 2
