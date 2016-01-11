@@ -3,7 +3,7 @@
 This is the setup for a Todo app in Angular 2 and is part of a school work in the course RIA-development at the [Linneaus University](http://lnu.se/).
 
 ##Youtube tutorial
-[HERE]([tutorial](https://www.youtube.com/watch?v=vX9ftlkBGVA))
+[HERE](https://www.youtube.com/watch?v=vX9ftlkBGVA)
 
 ##Start the app
 Open your terminal and cd to the root of the todo app project. 
