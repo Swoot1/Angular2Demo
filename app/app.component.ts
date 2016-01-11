@@ -46,7 +46,7 @@ export class AppComponent {
     }
     
     getTasks(){
-        this._taskService.getTasks().then(tasks => this.tasks = tasks;);
+        this._taskService.getTasks().then(tasks => this.tasks = tasks);
     }   
     
     addTask(task){
