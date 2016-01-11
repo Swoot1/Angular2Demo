@@ -5,6 +5,11 @@ This is the setup for a Todo app in Angular 2 and is part of a school work in th
 ##Youtube tutorial
 [HERE](https://www.youtube.com/watch?v=vX9ftlkBGVA)
 
+Known errors in the tutorial:
+
+- The Task interface is never placed in it's own file and will result in a TypeScript error when not found.
+- The Task dueDate should be of the type String since it is, a string. This will also result in a TypeScript error.
+
 ##Start the app
 Open your terminal and cd to the root of the todo app project. 
 
