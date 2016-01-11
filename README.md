@@ -41,4 +41,4 @@ Open a new terminal window and cd to the project root again. Keep the old termin
 
 This will start a developer web server for you to use.
 
-Open your browser and go to [localhost:8080](localhost:8080). You should now be able to see the application.
+Open your browser and go to [localhost:8080](localhost:8080). You should now be able to see the words "My todo app".
