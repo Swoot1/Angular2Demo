@@ -10,6 +10,8 @@ Known errors in the tutorial:
 - The Task interface is never placed in it's own file and will result in a TypeScript error when not found.
 - The Task dueDate should be of the type String since it is, a string. This will also result in a TypeScript error.
 
+I'm sorry for any other unknown errors the tutorial might contain.
+
 ##Start the app
 Open your terminal and cd to the root of the todo app project. 
 
@@ -41,4 +43,4 @@ Open a new terminal window and cd to the project root again. Keep the old termin
 
 This will start a developer web server for you to use.
 
-Open your browser and go to [localhost:8080](localhost:8080). You should now be able to see the words "My todo app".
+Open your browser and go to [localhost:8080](localhost:8080). You should now be able to see the words "My todo app" and get going with the Youtube tutorial.
